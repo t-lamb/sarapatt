@@ -1,0 +1,129 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.8rem;
+  color: #2B303A;
+  background-color: #FFFFFF;
+}
+h1 {
+  font-weight: 700;
+}
+a{
+  color: #2B303A;
+}
+a:hover {
+  color: #68AFD8;
+  text-decoration: none;
+  -webkit-transition: color ease-out 0.5s;
+  transition: color ease-out 0.5s;
+}
+img {
+  max-width: 100%;
+}
+
+/* navbar */
+.navbar {
+  background-color: #FFFFFF;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+.navbar-right {
+  padding-right: 1rem;
+  text-align: right;
+}
+.navbar-right li > a {
+  font-size: 1.6rem;
+}
+.navbar-right li > a:focus,
+.navbar-right li > a:hover {
+  background-color: transparent;
+}
+.navbar-toggle .icon-bar {
+  background-color: #2B303A;
+}
+.collapse.in {
+  background-color: #EAF7FF;
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  border-top: 2px solid #2B303A;
+}
+.intro {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  border-top: none;
+}
+
+.work-box {
+  background-color: #fff;
+  border: 2px solid #2B303A;
+  border-radius: 3px;
+  color: #2B303A;
+  display: block;
+  height: 115px;
+  margin: 2rem 0;
+  position: relative;
+  text-align: center;
+}
+.work-box:hover {
+  background-color: #68AFD8;
+  border: 2px solid #68AFD8;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+.work-box h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.experience {
+  margin-top: 4rem;
+}
+.experience-list {
+  list-style: none;
+  padding: 0;
+}
+.experience-list li {
+  padding: 1rem 0 0;
+}
+.employer {
+  font-weight: 700;
+}
+.role {
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.bio-pic {
+  border-radius: 50%;
+  margin-top: 3rem;
+}
+.bio {
+  margin-top: 5rem;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+}
+.social-list li {
+  padding: 1rem 0 0;
+}
+.social img {
+  margin-bottom: 5px;
+  margin-right: 1rem;
+  vertical-align: bottom;
+  width: 2rem;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 2.5rem;
+  }
+}
