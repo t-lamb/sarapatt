@@ -55,7 +55,10 @@ img {
   padding-bottom: 15rem;
   border-top: none;
 }
-
+.intro p {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
 .work-box {
   background-color: #fff;
   border: 2px solid #2B303A;
@@ -122,6 +125,21 @@ img {
   vertical-align: bottom;
   width: 2rem;
 }
+
+.article-list {
+  list-style: none;
+  padding: 0;
+}
+.article-list li {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 1.5rem 0;
+
+}
+.article-list li a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .navbar-brand {
     padding-left: 2.5rem;
