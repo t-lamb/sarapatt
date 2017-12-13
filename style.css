@@ -16,6 +16,12 @@ a:hover {
   -webkit-transition: color ease-out 0.5s;
   transition: color ease-out 0.5s;
 }
+p a {
+  color: #68AFD8;
+}
+p a:hover {
+ text-decoration: underline; 
+}
 img {
   max-width: 100%;
 }
