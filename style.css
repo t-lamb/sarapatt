@@ -128,10 +128,7 @@ img {
 
 .podcast {
   margin-top: 30px;
-  margin-bottom: 30px;
-}
-.podcast h2 {
-  margin-top: 0;
+  margin-bottom: 45px;
 }
 .article-list {
   list-style: none;
@@ -150,5 +147,8 @@ img {
 @media (min-width: 768px) {
   .navbar-brand {
     padding-left: 2.5rem;
+  }
+  .podcast h2 {
+    margin-top: 0;
   }
 }
