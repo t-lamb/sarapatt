@@ -1,144 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Sara Patterson</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1">
-  <!-- Latest compiled and minified Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- my css -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Bootstrap -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Barlow:400,700" rel="stylesheet">
-  <!-- favicon -->
-  <!-- <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" /> -->
-</head>
-<body>
-  <nav class="navbar navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Sara Patterson</a>
-      </div><!--/navbar-header-->
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#work">work</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#contact">contact</a></li>
-        </ul>
-      </div><!--/collapse-->
-    </div><!--/container-->
-  </nav>
-
-  <div class="container">
-    <div class="row intro section">
-      <div class="col-md-8 col-sm-12">
+  <head>
+    <title>Sara Patterson</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1">
+    <!-- css resets -->
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Roboto:300,300i,500" rel="stylesheet">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" /> -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="nav-brand" href="index.html">Sara Patterson</a>
+        <div class="nav-right">
+          <a href="about.html">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+          <!--<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Sara Patterson</a>
+          </div>--><!--/navbar-header-->
+          <!--<div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#work">work</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </div>--><!--/collapse-->
+      </nav>
+    </header>
+    <div class="wrapper">
+      <div class="intro">
         <h1>New York City-based podcast producer.</h1>
-      </div><!--/column-->
-    </div><!--/row-->
-    <div id="work" class="row section">
-      <div class="col-md-12 col-sm-12">
-        <h2>Work:</h2>
-      </div><!--/column-->
-      <div class="col-md-3 col-sm-6">
-        <a href="bloomberg.html" class="work-box">
-          <h3>Bloomberg</h3>
-        </a>
-      </div><!--/column-->
-      <div class="col-md-3 col-sm-6">
-        <a href="https://fivethirtyeight.com/contributors/sara-patterson/" class="work-box">
-          <h3>FiveThirtyEight</h3>
-        </a>
-      </div><!--/column-->
-      <div class="col-md-3 col-sm-6">
-        <a href="philadelphia.html" class="work-box">
-          <h3>Philadelphia Neighborhoods</h3>
-        </a>
-      </div><!--/column-->
-      <div class="col-md-3 col-sm-6">
-        <a href="http://www.nlgjaconnect.org/2014/reporters-shift-their-coverage-as-players-come-out/" class="work-box">
-          <h3>NLGJA Connect</h3>
-        </a>
-      </div><!--/column-->
-      <div class="col-md-12 col-sm-12">
-        <h3 class="experience">Experience:</h3>
-        <ul class="experience-list">
+      </div>
+      <div class="experience">
+        <h2><a href="https://www.bloomberg.com/podcasts/odd_lots">Odd Lots</a></h2>
+        <p class="role">Producer</p>
+        <p>The <i>Odd Lots</i> podcast delves into unexpected aspects of markets and finance. Can Buddhism save the global economy? How do negotiators determine the market value for ransom payments? What advice does one of the most successful professional pokers player have for traders? Odd Lots asks these questions and more.</p>
+        <img src="odd-lots.jpg">
+        <p class="caption">image from bloomberg.com</p>
+        <h3>Suggested episodes:</h3>
+        <ul class="episode-list">
           <li>
-            <a href="https://www.bloomberg.com/" class="employer">Bloomberg</a>
-            <p class="role">Associate Podcast Producer</p>
+            <a href="https://www.bloomberg.com/news/articles/2017-03-06/odd-lots-the-incredible-true-story-of-the-real-life-trading-places">The Incredible True Story of the Real Life 'Trading Places'?</a>
           </li>
           <li>
-            <a href="http://fivethirtyeight.com/" class="employer">FiveThirtyEight</a>
-            <p class="role">Podcast and Video Intern</p>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/abroaderviewtu/" class="employer">A Broader View</a>
-            <p class="role">Producer</p>
-          </li>
-          <li>
-            <a href="http://www.nlgja.org/" class="employer">National Lesbian & Gay Journalists Association (NLGJA)</a>
-            <p class="role">Connect Student Project Participant</p>
-          </li>
-          <li>
-            <a href="https://templeupdate.com/update-now/" class="employer">Temple Update Now</a>
-            <p class="role">Production Assistant</p>
-          </li>
-          <li>
-            <a href="https://issuu.com/phillycp" class="employer">Philadelphia City Paper</a>
-            <p class="role">Arts & Entertainment Intern</p>
-          </li>
-          <li>
-            <a href="http://temple-news.com/" class="employer">The Temple News</a>
-            <p class="role">Columnist - LGBT issues &amp; culture</p>
+            <a href="https://www.bloomberg.com/news/articles/2016-11-21/odd-lots-here-are-the-signs-that-a-civilization-is-about-to-collapse">Here Are the Signs That a Civilization Is About to Collapse</a>
           </li>
         </ul>
-      </div><!--/column-->
-    </div><!--/row-->
-
-    <div id="about" class="row section">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <h2>About Sara:</h2>
-      </div><!--/column-->
-      <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-        <img src="sara.jpg" class="bio-pic">
-      </div><!--/column-->
-      <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
-        <p class="bio">Sara Patterson is a New York-based audio producer. Her experience in podcasting ranges from episode planning to post-production. She’s originally from Philadelphia and studied Journalism with a focus on Broadcast Production at Temple University. At Temple, she covered LGBTQIA news from The Temple News and Philadelphia Neighborhoods and helped produce the first season of Temple’s talk show, A Broader View.</p>
-        <p>An avid podcast listener, she moved to New York City in 2015 to begin her career in podcast producing. Since then, she’s worked on a variety of shows, both daily and weekly, covering a range of topics from sports and data to business and economics. She shares her Queens apartment with her kitten, Cat McKinnon.</p>
-      </div><!--/column-->
-    </div><!--/row-->
-
-    <div id="contact" class="row section">
-      <div class="col-md-12 col-sm-12">
+      </div><!--/experience-->
+      <div class="experience">
+        <h2><a href="https://www.bloomberg.com/podcasts/deal_of_the_week">Deal of the Week</a></h2>
+        <p class="role">Producer</p>
+        <p>Members of Bloomberg's Deals team analyze the biggest "deal of the week" and how it fits into larger trends in mergers & acquisitions on the <i>Deal of the Week</i> podcast. Journalists responsible for breaking some of Bloomberg's biggest scoops give listeners an inside look at what happens when the world's most powerful companies decide to go into M&A.</p>
+        <img src="deal-of-the-week.jpg">
+        <p class="caption">image from bloomberg.com</p>
+        <h3>Suggested episodes:</h3>
+        <ul class="episode-list">
+          <li>
+            <a href="https://www.bloomberg.com/news/articles/2017-10-18/deal-of-the-week-weinstein-co-begins-sale-talks-in-crisis">Weinstein Co. Begins Sale Talks in Crisis</a>
+          </li>
+          <li>
+            <a href="https://www.bloomberg.com/news/articles/2017-09-20/deal-of-the-week-george-zimmer-is-back-he-guarantees-it">George Zimmer is Back, He Guarantees It</a>
+          </li>
+        </ul>
+      </div><!--/experience-->
+      <div class="experience">
+        <h2><a href="https://www.bloomberg.com/podcasts/benchmark">Benchmark</a></h2>
+        <p class="role">Producer</p>
+        <p>Bloomberg journalists from around the world come together for a jargon-free discussion on the stories that are driving the global economy on the <i>Benchmark</i> podcast.</p>
+        <img src="benchmark.jpg">
+        <p class="caption">image from bloomberg.com</p>
+        <h3>Suggested episodes:</h3>
+        <ul class="episode-list">
+          <li>
+            <a href="https://www.bloomberg.com/news/articles/2017-06-22/why-new-york-s-summer-of-hell-matters-to-more-than-just-commuters">Why New York's Summer of Hell Matters to More Than Just Commuters</a>
+          </li>
+          <li>
+            <a href="https://www.bloomberg.com/news/articles/2017-10-05/forget-oil-religion-is-big-business-in-saudi-arabia">Forget Oil. Religion Is Big Business in Saudi Arabia</a>
+          </li>
+        </ul>
+      </div><!--/experience-->
+      <div class="experience">
+        <h2><a href="https://fivethirtyeight.com/tag/whats-the-point/">What's The Point?</a></h2>
+        <p class="role">Podcast &amp; Video Intern</p>
+        <p>The <i>What's The Point?</i> podcast delves into the stories driving our age of data. From choosing what movie to see on Friday night to tracing your family tree to picking what football team to root for, data can factor into our daily lives in many different ways.</p>
+        <img src="whatsthepoint.png">
+        <p class="caption">image from fivethirtyeight.com</p>
+      </div><!--/experience-->
+      <div class="experience">
+        <h2><a href="https://fivethirtyeight.com/tag/hot-takedown/">Hot Takedown</a></h2>
+        <p class="role">Podcast &amp; Video Intern</p>
+        <p>FiveThirtyEight's <i>Hot Takedown</i> podcast measures the emerging narratives of the sports world and the hot takes from commentators and Monday morning quarterbacks against actual data in search of more solid evidence to lean on.</p>
+        <img src="hottakedown.jpg">
+        <p class="caption">image from fivethirtyeight.com</p>
+      </div><!--/experience-->
+      <div id="contact" class="contact">
         <h2>Contact:</h2>
         <ul class="social-list">
           <li>
             <a href="https://twitter.com/sarapatt" class="social">
-              <img src="twitter.svg"> @sarapatt
+              <img src="twitter.svg">@sarapatt
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/saraemilypatterson/" class="social">
-              <img src="linked.svg"> linkedin
+              <img src="linked.svg">linkedin
             </a>
           </li>
           <li>
-            <p class="social">
-              <img src="email.svg"> patterson.e.sara@gmail.com
-            </p>
+            <a class="social" href="patterson.e.sara@gmail.com">
+              <img src="email.svg">patterson.e.sara@gmail.com
+            </a>
           </li>
         </ul>
-      </div><!--/column-->
-    </div><!--/row-->
-
-  </div><!--/container-->
-</body>
+      </div><!--/contact-->
+    </div><!--/wrapper-->
+  </body>
 </html>
