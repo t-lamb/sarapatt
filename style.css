@@ -10,12 +10,14 @@ a:hover { color:#2A6AEA; text-decoration:underline;
   transition:color ease-out 0.5s;
 }
 img { max-width:100%; }
-header { background-color:#fff; left:0; position:fixed; right:0; top:0; }
+header { background-color:#fff; left:0; position:fixed; right:0; top:0; z-index:100; }
 nav { margin:0 auto; max-width:1000px; padding:16px 32px; }
 .nav-brand { font-size:18px; font-weight:500; }
 .nav-right { float:right; }
 .nav-right a { font-size:16px; padding:0 0 0 24px; }
-.intro { border-bottom:2px solid #2A6AEA; margin-bottom:80px; padding:200px 0 150px; }
+.intro { border-bottom:2px solid #2A6AEA; margin-bottom:130px; padding:150px 0 130px; position:relative; }
+.intro-icon { background-color:#fff; border:2px solid #2A6AEA; border-radius:50%; height:96px; left:50%; position:absolute; top:100%; transform:translate(-50%, -50%); width:96px; }
+.intro-icon img { position:absolute; height:80px; left:50%; margin-top:6px; top:50%; transform:translate(-50%, -50%); }
 .wrapper { margin:0 auto; max-width:564px; padding:0 32px; }
 .experience { margin:0 auto 96px; }
 .experience img { margin:8px auto; max-width:300px; }
