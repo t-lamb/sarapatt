@@ -16,23 +16,25 @@ nav { margin:0 auto; max-width:1000px; padding:16px 32px; }
 .nav-right { float:right; }
 .nav-right a { font-size:16px; padding:0 0 0 24px; }
 .intro { border-bottom:2px solid #2A6AEA; margin-bottom:130px; padding:150px 0 130px; position:relative; }
-.intro-icon { background-color:#fff; border:2px solid #2A6AEA; border-radius:50%; height:96px; left:50%; position:absolute; top:100%; transform:translate(-50%, -50%); width:96px; }
-.intro-icon img { position:absolute; height:80px; left:50%; margin-top:6px; top:50%; transform:translate(-50%, -50%); }
+.intro-icon { background-color:#fbf4ed; border:2px solid #2A6AEA; border-radius:50%; height:96px; left:50%; position:absolute; top:100%; transform:translate(-50%, -50%); width:96px; }
+.intro-icon img { position:absolute; height:60px; left:50%; top:50%; transform:translate(-50%, -50%); }
 .wrapper { margin:0 auto; max-width:564px; padding:0 32px; }
 .experience { margin:0 auto 96px; }
 .experience img { margin:8px auto; max-width:300px; }
 .caption { color:#aaacb0; font-size:14px; font-style:italic; margin:0 0 16px; }
 .role { font-style:italic; line-height:1; }
 .episode-list { list-style:none; font-size:18px; margin:8px 0; padding-left:0; }
-.episode-list li { margin-bottom:12px; }
-/* .episode-list li:after { border-color:transparent transparent transparent #2A6AEA; border-width:6px 0px 6px 10px; border-style:solid; box-sizing:border-box; content:""; display:inline-block; margin-left:6px; width:10px; height:12px; } */
-.contact { border-top:2px solid #2A6AEA; padding:96px 0 96px; }
+.episode-list li { background-image:url("play.svg"); background-repeat:no-repeat; background-size:20px; background-position:top left; margin-bottom:12px; padding:0 0 0 32px; }
+.contact { border-top:2px solid #2A6AEA; padding:64px 0 96px; }
 .social-list { list-style:none; font-size:18px; padding:0; }
-.social-list li { padding:16px 0 0; }
+.social-list li { padding:8px 0 16px; }
 .social-list p { margin:0; }
-.social img { margin-right:16px; vertical-align:bottom; width:24px; }
+.social img { margin:0 12px -6px 0; vertical-align:bottom; width:32px; }
 .about { padding:96px 0 150px; }
 .about-pic { border-radius: 50%; margin:24px 0; max-width:200px; }
 @media (max-width:1000px) {
   nav { max-width:100%; }
+}
+@media (max-width:768px) {
+  h1 { font-size:36px; }
 }
