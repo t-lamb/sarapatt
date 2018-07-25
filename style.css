@@ -1,4 +1,4 @@
-body { background-color:#fbf4ed; color:#2B303A; font-family:'Roboto', sans-serif; font-weight:300; }
+body { background-color:#FFF1D9; color:#2B303A; font-family:'Roboto', sans-serif; font-weight:300; }
 h1, h2, h3 { font-family:'Barlow', sans-serif; font-weight:normal; margin:16px auto; }
 h1 { font-size:48px; }
 h2 { font-size:36px; }
@@ -21,12 +21,13 @@ nav { margin:0 auto; max-width:1000px; padding:16px 32px; }
 .wrapper { margin:0 auto; max-width:720px; padding:0 32px; }
 
 .intro { border-bottom:2px solid #2A6AEA; margin-bottom:130px; padding:150px 0 130px; position:relative; }
-.intro-icon { background-color:#fbf4ed; border:2px solid #2A6AEA; border-radius:50%; height:96px; left:50%; position:absolute; top:100%; transform:translate(-50%, -50%); width:96px; }
+.intro-icon { background-color:#FFF1D9; border:2px solid #2A6AEA; border-radius:50%; height:96px; left:50%; position:absolute; top:100%; transform:translate(-50%, -50%); width:96px; }
 .intro-icon img { position:absolute; height:60px; left:50%; top:50%; transform:translate(-50%, -50%); }
 
 .experience { margin:0 auto 96px; max-width:460px; }
 .experience__description { font-size:18px; text-align:justify; }
-.experience__image { box-shadow:8px 8px 0 0 #fff; margin:8px auto; min-width:200px; width:50%; }
+.experience__image { box-shadow:8px 8px 0 0 #fff; margin:8px auto; min-width:200px; width:50%;
+}
 .experience__image--wide { width:75%; }
 .caption { color:#aaacb0; font-size:14px; font-style:italic; margin:0 8px 32px; }
 .role { font-size:16px; font-style:italic; line-height:1; }
@@ -47,4 +48,5 @@ nav { margin:0 auto; max-width:1000px; padding:16px 32px; }
 }
 @media (max-width:768px) {
   h1 { font-size:36px; }
+  .experience__image, .experience__image--wide { width:100%; }
 }
